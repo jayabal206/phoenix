@@ -1,0 +1,51 @@
+.overlay.top-banner{
+    background: rgba(2, 16, 70, 0.84);
+}
+.banner-content{
+    z-index: 2;
+}
+.banner-content__contact-box .contact-now{
+    background: #f05632;
+    color: white;
+    margin-top: 30px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.banner-content h1{
+    color: #FFF;
+}
+.banner-content__contact-box h2{
+    color: #9c9c9c;
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+/* banner contact form start*/
+.banner-content__contact-form{
+    display: none;
+}
+.banner-content__contact-form form{
+    background: rgba(255, 255, 255, 0.35);
+    padding: 30px;
+    border-radius: 10px;
+}
+.banner-content__contact-form h1{
+    /* margin:0; */
+}
+.banner-content__contact-form small{
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+    color: #cacaca;
+    border-bottom: 1px solid white;
+    margin-bottom: 20px;
+}
+.banner-content__contact-form .submit-btn{
+    text-transform: uppercase;
+    padding: 15px 50px;
+    margin: 0 auto;
+    display: block;
+    background: #f05632;
+    color: white;
+}
