@@ -15,6 +15,11 @@ export class BannerComponent implements OnInit {
       $(this).parents('.banner-content__contact-box').slideUp();
       $(this).parents().find('.banner-content__contact-form').slideDown();
     });
+
+    $('.banner-content__contact-form__close').on('click', function(){
+      $(this).parents('.banner-content__contact-form').slideUp();
+      $(this).parents().find('.banner-content__contact-box').slideDown();
+    });
   }
 
 }
