@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+// import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -13,6 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AccountsComponent } from './accounts/accounts.component';
 import { GstComponent } from './gst/gst.component';
 import { BannerComponent } from './banner/banner.component';
+import { WhatWeDoComponent } from './what-we-do/what-we-do.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { BannerComponent } from './banner/banner.component';
     FooterComponent,
     AccountsComponent,
     GstComponent,
-    BannerComponent
+    BannerComponent,
+    WhatWeDoComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'ang4-seo'}),
